@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> IT IS A MODIFICATION TO PROBE THE DEPLOY.
+          Edit <code>src/App.js</code> HELLO WORLD MY FIRST DEPLOY.
         </p>
         <a
           className="App-link"
