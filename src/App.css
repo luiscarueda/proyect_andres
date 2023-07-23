@@ -1,5 +1,31 @@
 .initial{
+    height: 80px;
     width: 100%;
     display: flex;
-    border: 2px solid black;
+    border: 1px solid white;
+    font-family: var(--primary-font);   
 }
+
+.section__padding {
+    padding: 4rem 6rem;
+  }
+ 
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+.app__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+  }
+   .app__bg {
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }

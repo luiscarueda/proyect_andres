@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.navbar__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar__links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__links li {
+    margin: 0 1rem;
+    cursor: pointer;   
+}
+
+.navbar__links li:hover {
+    color: var(--gray-color)
+}
+
+
+.navbar__logo img {
+    width: 102.56px;
+    height: 36.02px;
+}

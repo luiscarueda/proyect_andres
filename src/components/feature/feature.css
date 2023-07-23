@@ -1,0 +1,21 @@
+.features__container-feature {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: start;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.feature__title {
+    flex: 1;
+    max-width: 180px;
+    margin-right: 4rem;
+}
+
+.feature__text {
+    flex: 2;
+    max-width: 390px;
+    display: flex;
+}

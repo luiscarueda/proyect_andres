@@ -1,5 +1,5 @@
 import './App.css';
-import { Navbar, Aboutus ,Aboutme, Video, Programming, Gallery, Contact} from './containers';
+import { Navbar, Header, Aboutme, Video, Programming, Gallery, Contact, } from './containers';
 
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Aboutus/>
+      <Header/>
       <Aboutme/>
       <Video/>
       <Programming/>

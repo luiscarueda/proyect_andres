@@ -1,0 +1,25 @@
+.header__content {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__content-image {
+    flex: 1;
+    display: flex;
+    justify-content :left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.header__content-image img {
+    width: 60%;
+    height: 80%;
+    margin-left: 0;
+}
+
+.header__content-feature{
+    display: flex;
+}
+
+
