@@ -6,14 +6,17 @@
 :root {
   --primary-font: "Lato", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+    
+  --first-color:#000000;
+  --second-color:#1F3B68;
+  --third-color: #6699FF;
+  --fourth-color: #3AA566;
 
-  --primary-color: #000;
-  --secondary-color: #1F3B68;
-
-  --marinewater-color: #6699FF;
+  --hover-color: #6b7688;
+  
+  --marinewater-color:#6699FF ;
   --green-color: #3AA566;
   --white-color: #FFFFFF;
-  --gray-color: #6b7688;
   --brown-color: #46364a;
   --golden-color: #d48712;
  }
@@ -31,6 +34,6 @@ a {
 }
 
 body{
-  background: var(--primary-color);
+  background: var(--second-color);
   color: var(--white-color);
 }

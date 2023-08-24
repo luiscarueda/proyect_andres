@@ -7,19 +7,19 @@
     {
       title: 'BOREALIS',
       text: 'LATIN DANCE STUDIO',
-      description :'la mejor del UNIVERSO salsa on line 1111',
+      description :'la mejor del UNIVERSO SALSA on line  TRIUNFARE POR SOBRE TODO soy el mas grande ',
     }
   ]  
 
  const Header = () => {
    return (
     <>
-    <div className='header__content section__padding flex__center '>
-      <div className='header__content-image'>
+    <div className='header__content section__padding flex__center initial '>
+      <div className='header__content-image initial'>
         <img src={image1} alt="logo" />
       </div> 
 
-      <div className='header__content-feature'>
+      <div className='header__content-feature initial'>
           {headerdata.map((item, index) => (
           <Feature title={item.title} text={item.text} description={item.description} key={item.title + index} />
           ))}       

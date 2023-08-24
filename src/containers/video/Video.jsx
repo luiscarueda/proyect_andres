@@ -12,7 +12,7 @@ const Video = () => {
 
   return (
   <>
-    <div className='video'>
+    <div className='video initial'>
         <div className='video__content'>
           <Feature/>
         </div>

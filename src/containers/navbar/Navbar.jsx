@@ -21,7 +21,7 @@ const Menu = () => {
 const Navbar = () => {
   return (
     <>
-      <nav className='navbar'>
+      <nav className='navbar initial '>
           <div className='navbar__logo'>
             <img src={logo} alt="borealis" />
           </div>

@@ -1,25 +1,33 @@
 .header__content {
     display: flex;
     flex-direction: row;
+    padding: 4rem 2rem;
 }
 
 .header__content-image {
     flex: 1;
     display: flex;
-    justify-content :left;
+    justify-content: left;
     align-items: flex-start;
     flex-direction: column;
-    margin-right: 2rem;
+    padding: 2rem 2rem;
+    margin-right: 6rem;
+    width: 400px;
+    height: 500px;
 }
 
 .header__content-image img {
-    width: 60%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     margin-left: 0;
 }
 
 .header__content-feature{
+    padding: 4rem;
+    margin-right: 2rem;
     display: flex;
+    justify-content: end;
+    width: 350px;
 }
 
 
