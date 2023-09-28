@@ -6,15 +6,32 @@ import {dance} from '../../constants'
 import Feature from '../../components/feature/Feature'
 
 
+
+
 const Video = () => {
   const vidRef = React.useRef();
   const [playVideo,setPlayVideo] = React.useState(false);
+
+  const videoData = [
+    {
+      title: 'SIENTELO',
+      text: 'BAILALO ',
+      description :'Una sensacion dificil de explicar',
+    }
+  ]  
+
+
 
   return (
   <>
     <div className='video initial'>
         <div className='video__content'>
-          <Feature/>
+        {videoData.map((item, index) => (
+            <Feature title={item.title} text={item.text} description={item.description} key={item.title + index} />
+        ))}       
+
+
+        
         </div>
       <div className='video__video'>
         <video 

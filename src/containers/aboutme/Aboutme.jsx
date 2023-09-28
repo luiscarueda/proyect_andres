@@ -1,7 +1,8 @@
 import React from 'react'
 import './aboutme.css'
-import image2 from '../../assets/1688672154527.jpg'
+import image from '../../assets/gallery03.jpg'
 import Feature from '../../components/feature/Feature'
+import { images } from '../../constants'
 
 const aboutmedata = [
   {
@@ -22,7 +23,7 @@ const Aboutme = () => {
         ))}       
       </div>
       <div className='aboutme__image'>
-        <img src={image2} alt="photocarlos" />
+        <img src={image} alt="photocarlos" />
       </div>      
     </div>
     </>  
