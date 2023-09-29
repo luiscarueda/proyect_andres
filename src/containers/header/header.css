@@ -26,7 +26,7 @@
     padding: 4rem;
     margin-right: 2rem;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     width: 350px;
 }
 
