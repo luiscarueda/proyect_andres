@@ -1,6 +1,6 @@
 import React from 'react'
 import './gallery.css'
-import { BsArrowLeftShort,BsArrowRightShort } from 'react-icons/bs'
+import { BsArrowLeftSquareFill,BsArrowRightSquareFill} from 'react-icons/bs'
 import { images } from '../../constants';
 
 
@@ -28,7 +28,7 @@ const Gallery = () => {
       <div className="gallery__images">
         <div className="gallery__images-container" ref={scrollRef}>
           {galleryImages.map((image,index)=>(
-            <div className ='gallery__images-card flex__center key={`[gallery_image-${index + 1}`}'>
+            <div className ='gallery__images-card flex__center' key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_images" />
 
             </div>
@@ -36,8 +36,8 @@ const Gallery = () => {
 
         </div>
         <div className="gallery__images-arrow">
-          <BsArrowLeftShort className='gallery__arrow-icon' onClick={()=> scroll('left')} />
-          <BsArrowRightShort className='gallery__arrow-icon'onClick={()=> scroll('right')}/>
+          <BsArrowLeftSquareFill className='gallery__arrow-icon' onClick={()=> scroll('left')} />
+          <BsArrowRightSquareFill className='gallery__arrow-icon'onClick={()=> scroll('right')}/>
         </div>
       </div>
 

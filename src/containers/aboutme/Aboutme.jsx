@@ -2,13 +2,12 @@ import React from 'react'
 import './aboutme.css'
 import image from '../../assets/gallery03.jpg'
 import Feature from '../../components/feature/Feature'
-import { images } from '../../constants'
 
 const aboutmedata = [
   {
     title: 'CARLOS RUEDA',
-    text: 'INCREIBLE BAILARIN ',
-    description :'UNA GRAN PERSONA',
+    text: 'BAILARIN PROFESIONAL',
+    description :'Colombiano presentando su academia de baile en Canada',
   }
 ]  
 

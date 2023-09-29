@@ -7,7 +7,7 @@
     {
       title: 'BOREALIS',
       text: 'LATIN DANCE STUDIO',
-      description :'la mejor del UNIVERSO SALSA on line  TRIUNFARE POR SOBRE TODO soy el mas grande ',
+      description :'DANCE ACADEMY IN KELOWNA ',
     }
   ]  
 
