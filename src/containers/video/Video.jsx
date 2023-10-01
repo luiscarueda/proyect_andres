@@ -24,7 +24,7 @@ const Video = () => {
 
   return (
   <>
-    <div className='video initial'>
+    <div className='video '>
         <div className='video__content'>
         {videoData.map((item, index) => (
             <Feature title={item.title} text={item.text} description={item.description} key={item.title + index} />
