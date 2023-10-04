@@ -16,13 +16,14 @@ const Video = () => {
     {
       title: 'SIENTELO',
       text: 'BAILALO ',
-      description :'Una sensacion dificil de explicar',
+      description :'Lorem ipsum dolor sit amet consectetur adipisicing elit.Una sensacion dificil de explicar',
     }
   ]  
 
 
 
-  return (
+
+   return (
   <>
     <div className='video '>
         <div className='video__content'>
@@ -68,3 +69,5 @@ const Video = () => {
 }
 
 export default Video
+
+

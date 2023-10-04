@@ -2,7 +2,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@300&display=swap');
 
 
-
 :root {
   --primary-font: "Lato", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -18,8 +17,13 @@
   --white-color: #FFFFFF;
   --brown-color: #46364a;
   --golden-color: #d48712;
- }
 
+/* global 94%+ browsers support */
+  --gradient-bar: linear-gradient(149deg, rgba(58, 165, 102, 1) 0%, rgba(102, 153, 255, 1) 47%, rgba(0, 0, 0, 1) 77%);
+
+}
+   
+ 
 * {
   box-sizing: border-box;
   padding: 0;
