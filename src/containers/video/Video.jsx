@@ -57,7 +57,7 @@ const Video = () => {
         } >
 
         {playVideo
-          ?(<BsPauseFill fontSize={40}/>)
+          ?(<BsPauseFill  fontSize={40}/>)
           :(<BsFillPlayFill fontSize={40}/>)
         }
       </div>

@@ -13,10 +13,10 @@ const Contact = () => {
           <BsFacebook fontSize={40}/>
      </a>
      <a href='https://www.instagram.com/borealislatindance/' target='_blank' rel="noreferrer">
-      <BsInstagram fontSize={40}/>
+      <BsInstagram  fontSize={40}/>
      </a>
-     <a href='https://wa.me/573006179301?text=Hola quiero informacion de su negocio' target= '_blank' rel="noreferrer">
-      <BsWhatsapp fontSize={40} />
+     <a href='https://wa.me/15875660135?text=Hola BOREALIS tengo dudas y quiero mas informacion de la academia' target= '_blank' rel="noreferrer">
+      <BsWhatsapp fontSize={40}  />
      </a>
      
 
