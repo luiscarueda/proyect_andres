@@ -6,6 +6,15 @@
         flex-direction: row;
         padding: 2rem;
         margin: 4rem;
+        margin-right: 2rem;
+        padding-right: 4rem;
         border-radius: 1rem;
         background: var(--gradient-bar)
+    }
+
+    .cta__icons{
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem;
+        gap: 15px;
     }
