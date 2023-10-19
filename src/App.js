@@ -1,5 +1,5 @@
 import './App.css';
-import { Navbar, Header, Aboutme, Video, Programming, Gallery, Contact, } from './containers';
+import { Navbar, Header, Aboutme, Video, Programming, Gallery, Contact, Calendar} from './containers';
 
 
 
@@ -10,6 +10,7 @@ function App() {
       <Navbar/>
       <Header/>
       <Aboutme/>
+      <Calendar/>
       <Video/>
       <Programming/>
       <Gallery/>

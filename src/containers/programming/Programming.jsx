@@ -5,19 +5,19 @@ import Feature from '../../components/feature/Feature'
 const headerdata = [
   {
     title: 'BACHATA',
-    text: 'LEVEL 1',
+    text: 'LEVEL 1 2 3',
     description :'Tuesdays 8 ',
   }
   ,
   {
     title: 'SALSA',
-    text: 'LEVEL 2',
+    text: 'LEVEL 1 2 3',
     description :'Tuesdays 9 ',
   }
   ,
   {
-    title: 'SALSA',
-    text: 'LEVEL 3',
+    title: 'COLOMBIAN SALSA',
+    text: 'LEVEL 1 2 3',
     description :'Tuesdays 10 ',
   }
 

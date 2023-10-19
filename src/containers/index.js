@@ -5,7 +5,7 @@ import Video from "./video/Video";
 import Programming from "./programming/Programming";
 import Gallery from "./gallery/Gallery";
 import Contact from "./contact/Contact";
-
+import Calendar from "./calendar/Calendar";
 export{
     Navbar,
     Header,
@@ -14,4 +14,5 @@ export{
     Programming,
     Gallery,
     Contact,
+    Calendar
 };

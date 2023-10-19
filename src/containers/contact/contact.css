@@ -3,7 +3,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
         padding: 2rem;
         margin: 4rem;
         margin-right: 2rem;
@@ -17,4 +17,51 @@
         justify-content: space-between;
         margin: 2rem;
         gap: 15px;
+    }
+
+    .cta__form h2{
+        margin-bottom: 3rem;
+    }
+
+    .cta__form form{
+        max-width: 70rem;
+        margin: 1rem auto;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .cta__form .cta__form-input{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .cta .cta__form .cta__form-input input,
+    .cta__form textarea {
+        width: 100%;
+        padding: 1.5rem;
+        font-size: 1.6rem;
+        color: var(__second-color);
+        background-color: var(__third-color);
+        border-radius: .8rem;
+        margin: .7rem 0;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 1rem 2.8rem;
+        background: var(__second-color);
+        border-radius: 4rem;
+        box-shadow: 0 0 1rem var(__second-color);
+        font-size: 1.6rem;
+        color: var(__second-color);
+        letter-spacing: .1rem;
+        font-weight: 600;
+        transition: .5s ease;
+        cursor: pointer;
+    }
+
+    .btn :hover{
+        box-shadow: none;
     }
