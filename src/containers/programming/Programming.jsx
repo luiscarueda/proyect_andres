@@ -6,19 +6,19 @@ const headerdata = [
   {
     title: 'BACHATA',
     text: 'LEVEL 1 2 3',
-    description :'Tuesdays 8 ',
+    description :'Tuesdays 8 100 CAD ',
   }
   ,
   {
     title: 'SALSA',
     text: 'LEVEL 1 2 3',
-    description :'Tuesdays 9 ',
+    description :'Tuesdays 9 100 CAD',
   }
   ,
   {
     title: 'COLOMBIAN SALSA',
     text: 'LEVEL 1 2 3',
-    description :'Tuesdays 10 ',
+    description :'Tuesdays 10 100 CAD ',
   }
 
 
