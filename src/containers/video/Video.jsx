@@ -44,7 +44,7 @@ const Video = () => {
           muted/>
       </div>
 
-    <div className='video__overlay flex__center'>
+    <div className='video__overlay flex__center initial'>
       <div className='video__overlay-circle flex__center'
         onClick={()=>{
           setPlayVideo(!playVideo);

@@ -72,6 +72,7 @@
 
     .navbar__links {
         display: none;
+        
     }
 
     .navbar__menu {
@@ -83,7 +84,13 @@
     .navbar {
         padding: 2rem 4rem;
     }
+
+    .navbar__menu-container-links{
+        list-style: none;
+        
 }
+    }
+
 
 @media screen and (max-width: 550px) {
     .navbar {
@@ -92,5 +99,6 @@
 
    .navbar__menu-container {
         top: 20px;
+       
     }
 }

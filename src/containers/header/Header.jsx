@@ -14,7 +14,7 @@
  const Header = () => {
    return (
     <>
-    <div className='header__content section__padding flex__center' id='ACADEMY'>
+    <div className='header__content section__padding flex__center initial' id='ACADEMY'>
       <div className='header__content-image '>
         <img src={image1} alt="logo" />
       </div> 

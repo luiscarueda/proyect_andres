@@ -23,7 +23,7 @@ const Gallery = () => {
 
 
   return (
-    <div className='gallery flex__center  section__padding' id='GALLERY'>
+    <div className='gallery flex__center  section__padding initial' id='GALLERY'>
      
       <div className="gallery__images">
         <div className="gallery__images-container" ref={scrollRef}>

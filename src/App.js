@@ -8,12 +8,12 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Header/>
-      <Aboutme/>
-      <Calendar/>
       <Video/>
+      <Header/>
+      <Calendar/>
       <Programming/>
       <Gallery/>
+      <Aboutme/>
       <Contact/>
 
     </div>

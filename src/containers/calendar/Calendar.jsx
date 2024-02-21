@@ -2,7 +2,7 @@ import React from 'react'
 import './calendar.css'
 import Feature from '../../components/feature/Feature'
 import {GrDocumentPdf} from 'react-icons/gr'
-import pdf from '../../assets/october.pdf'
+import pdf from '../../assets/november.pdf'
 
 
 const calendardata = [
@@ -15,7 +15,7 @@ const calendardata = [
 
 const Calendar = () => {
   return (
-    <section className='flex__center section__padding'id='CALENDAR'>
+    <section className='flex__center section__padding initial'id='CALENDAR'>
        <div className="calendar__data">
        {calendardata.map((item, index) => (
         <Feature title={item.title} text={item.text} description={item.description} key={item.title + index}/>

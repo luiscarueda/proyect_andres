@@ -3,7 +3,7 @@ import './contact.css'
 import {BsFacebook,BsInstagram,BsWhatsapp } from 'react-icons/bs'
 const Contact = () => {
   return (
-    <section className='cta  section__padding' id='CONTACT'>
+    <section className='cta  section__padding initial' id='CONTACT'>
       <div className=' cta__form p__text'>
         <h2>CONTACT <span>Me</span></h2>
         <form action="https://formspree.io/f/xyyqlvze" method='POST'>

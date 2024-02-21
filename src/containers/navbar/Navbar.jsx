@@ -9,7 +9,7 @@ const Menu = () => {
   return (
     <>
     
-{['ACADEMY','DIRECTOR','CALENDAR','SCHEDULE','GALLERY','CONTACT'].map((item) =>(
+{['ACADEMY','CALENDAR','SCHEDULE','GALLERY','DIRECTOR','CONTACT'].map((item) =>(
                <li key={`link-${item}`}>
                 <div></div>
                 <a href={`#${item}`}>{item}</a>
