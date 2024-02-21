@@ -37,6 +37,6 @@ a {
 }
 
 body{
-  background: var(--second-color);
+  background: var(--first-color);
   color: var(--white-color);
 }

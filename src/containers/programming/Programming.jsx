@@ -27,7 +27,7 @@ const headerdata = [
 
 const Programming = () => {
   return (
-    <div className='section__padding programming initial'id="SCHEDULE">
+    <div className='section__padding programming 'id="SCHEDULE">
        {headerdata.map((item, index) => (
         <Feature title={item.title} text={item.text} description={item.description} key={item.title + index} />
       
